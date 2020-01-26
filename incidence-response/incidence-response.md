@@ -10,7 +10,7 @@
     * Architect for failure - high availability and fault tolerance always
     * Train for the real thing – Test and simulate; a real incident is a horrible place to learn lesson
     *	Clear ownership and governance – Tag all resources so no time is wasted finding who or what group to contact
-    * Data classification – tagging data stores with classification can quickly identify spillage
+    * Data classification – tagging data stores with classification can quickly identify spillage  
   **AWS services involved – IAM, VPC, EC2, EFS, RDS**  
 
   * Limit the blast radius
@@ -19,7 +19,7 @@
     * Benefits: 
       * If there is a breach, it will not affect multiple accounts
       * Service Control policies can be set so “child” accounts can be limited
-      * Using multiple Regions and VPCs can have a similar effect (ONLY network-level protection)
+      * Using multiple Regions and VPCs can have a similar effect (ONLY network-level protection)  
 **AWS Services – Organizations, VPCs**
 
   * Log Everything 
